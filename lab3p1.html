@@ -1,0 +1,73 @@
+<lab3p1.html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Era</title>
+
+
+    <style>
+        ol.era {
+            list-style-type: upper-roman;
+        }
+
+        ol.periods {
+            list-style-type: upper-alpha;
+        }
+        ol.era>li:first-of-type{
+            background-color: pink;
+        }
+        ol.era>li:nth-child(2){
+            background-color: blue;
+        }
+        ol.era>li:nth-of-type(3){
+            background-color: green;
+        }
+        ol.era>li:nth-of-type(4){
+            background-color: red;
+        }
+        ol.era>ol.periods:first-of-type{
+            background-color: blue;
+        }
+    </style>
+</head>
+<a href = "file:///C:/Users/deyli/lab3p2.html">CSS boxes</a>
+<a href = "file:///C:/Users/deyli/lab3p4.html">Alert</a>
+
+
+<body>
+
+<ol class="era">
+
+    <li>Proterozoic</li>
+    <li>Paleozoic</li>
+    <ol class="periods">
+        <li>Cambrian</li>
+        <li>Ordovician</li>
+        <li>Silurian</li>
+        <li>Devonian</li>
+        <li>Mississippian</li>
+        <li>Pennsylvanian</li>
+        <li>Permian</li>
+
+    </ol>
+    <li>Mesozoic</li>
+    <li>Cenozoic</li>
+    <ol class="periods">
+
+        <li>Paleogene</li>
+        <ol class="epochs">
+            <li>Paleocene</li>
+            <li>Eocene</li>
+            <li>Oligocene</li>
+        </ol>
+        <li>Neogene</li>
+        <ol class="epochs">
+            <li>Miocene</li>
+            <li>Pliocene</li>
+            <li>Pleistocene</li>
+            <li>Holocene</li>
+        </ol>
+    </ol>
+</ol>
+</body>
+</html>
